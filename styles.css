@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    margin: 10px;
+}
+
+.section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.card{
+    padding: 20px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card h3{
+    color: rgb(0, 68, 194);
+}
